@@ -1,8 +1,22 @@
 #!/bin/sh 
 
+#             DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+#                     Version 2, December 2004
+
+#  Copyright (C) 2004 Sam Hocevar <sam@hocevar.net>
+
+#  Everyone is permitted to copy and distribute verbatim or modified
+#  copies of this license document, and changing it is allowed as long
+#  as the name is changed.
+
+#             DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+#    TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
+
+#   0. You just DO WHAT THE FUCK YOU WANT TO.
+
 # Compiled for iptables (any version)
 #
-# Similar to fw 1, but the firewall is used as DHCP and DNS server for internal network.
+# the firewall is used as DHCP and DNS server for internal network.
 # This firewall has two interfaces. Eth0 faces outside and has a dynamic address; eth1 faces inside.
 # Policy includes basic rules to permit unrestricted outbound access and anti-spoofing rules. Access to the firewall is permitted only from internal network and only using SSH. The firewall can send DNS queries to servers out on the Internet. Another rule permits DNS queries from internal network to the firewall. Special rules permit DHCP requests from internal network and replies sent by the firewall.
 
