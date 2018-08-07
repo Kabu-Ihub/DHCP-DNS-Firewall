@@ -1,4 +1,4 @@
-# DHCP-DNS-Firewall-1
+# DHCP-DNS-Firewall
 DHCP-DNS Sever Firewall Rules
 <br/>
 This shows how to configure iptables firewall in linux
