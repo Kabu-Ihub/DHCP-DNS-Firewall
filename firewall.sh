@@ -1,7 +1,7 @@
 #!/bin/sh 
 
 #             DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
-#                     Version 2, December 2018
+#                     Version 0, 2018
 
 #  Copyright (C) 2018 Kabu Ihub
 
